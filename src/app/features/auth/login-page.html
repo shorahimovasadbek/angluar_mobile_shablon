@@ -1,0 +1,24 @@
+<ui-page header="false">
+  <div class="wrap">
+    <div class="langs">
+      @for (l of langs; track l) {
+        <button type="button" class="lang" [class.is-active]="lang.current() === l" (click)="lang.set(l)">
+          {{ l.toUpperCase() }}
+        </button>
+      }
+    </div>
+
+    <h1 class="title">{{ 'auth.title' | translate }}</h1>
+    <p class="sub">{{ 'auth.sub' | translate }}</p>
+
+    <form [formRoot]="f" novalidate class="flex flex-col gap-4">
+      <ui-input kind="phone" [formField]="f.phone" [label]="'auth.phone' | translate" />
+      <ui-input kind="password" [formField]="f.password"
+        [label]="'auth.pw' | translate" [placeholder]="'auth.pw_ph' | translate" />
+
+      <ui-button type="submit" block [loading]="f().submitting()">
+        {{ 'auth.btn' | translate }}
+      </ui-button>
+    </form>
+  </div>
+</ui-page>

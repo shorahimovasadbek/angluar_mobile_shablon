@@ -1,0 +1,11 @@
+:host { display: contents; }
+
+ion-title {
+  font-size: var(--text-title);
+  line-height: var(--text-title--line-height);
+  font-weight: var(--text-title--font-weight);
+}
+
+:host(.no-header) ion-content {
+  --padding-top: var(--ion-safe-area-top, 0px);
+}

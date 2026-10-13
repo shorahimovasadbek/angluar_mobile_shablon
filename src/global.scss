@@ -1,0 +1,12 @@
+@use "theme/toastr";
+
+/* Ionic komponentlari ishlashi uchun majburiy */
+@import "@ionic/angular/css/core.css";
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import "@ionic/angular/css/display.css";
+
+/* Ixtiyoriy utilitalar */
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/flex-utils.css";

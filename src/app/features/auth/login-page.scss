@@ -1,0 +1,30 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 24px 20px;
+}
+
+.langs { display: flex; justify-content: flex-end; gap: 6px; margin-bottom: 48px; }
+
+.lang {
+  padding: 4px 10px;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-xs);
+  background: var(--color-white);
+  font-size: var(--text-caption);
+  font-weight: 600;
+  color: var(--color-muted);
+
+  &.is-active { border-color: var(--color-brand); color: var(--color-brand); }
+}
+
+.title {
+  margin: 0 0 8px;
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 800;
+  color: var(--color-ink);
+}
+
+.sub { margin: 0 0 28px; color: var(--color-muted); }

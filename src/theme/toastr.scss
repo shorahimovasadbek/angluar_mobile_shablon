@@ -1,0 +1,7 @@
+ion-toast.ui-toast {
+  --border-radius: var(--radius-md);
+  --color: var(--color-white);
+}
+ion-toast.ui-toast--success { --background: var(--color-success); }
+ion-toast.ui-toast--error   { --background: var(--color-danger); }
+ion-toast.ui-toast--info    { --background: var(--color-ink); }

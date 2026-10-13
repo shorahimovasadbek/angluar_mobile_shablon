@@ -1,0 +1,6 @@
+<ui-page [title]="'tabs.home' | translate">
+  <section class="card">
+    <h2 class="text-title text-ink">{{ 'home.hello' | translate: { name: auth.user()?.name ?? '' } }}</h2>
+    <p class="text-body text-muted mt-1">{{ 'home.sub' | translate }}</p>
+  </section>
+</ui-page>

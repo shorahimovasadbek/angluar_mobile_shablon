@@ -1,0 +1,34 @@
+/* Ionic o'zgaruvchilari tailwind.css dagi tokenlarga bog'lanadi — rangni faqat o'sha yerda o'zgartiring */
+:root {
+  --ion-font-family: var(--font-sans);
+
+  --ion-background-color: var(--color-surface);
+  --ion-background-color-rgb: 243, 246, 249;
+  --ion-text-color: var(--color-ink-2);
+  --ion-text-color-rgb: 51, 65, 85;
+
+  --ion-color-primary: var(--color-brand);
+  --ion-color-primary-rgb: 37, 99, 235;
+  --ion-color-primary-contrast: var(--color-white);
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: var(--color-brand-active);
+  --ion-color-primary-tint: var(--color-brand-hover);
+
+  --ion-color-danger: var(--color-danger);
+  --ion-color-danger-rgb: 239, 68, 68;
+  --ion-color-danger-contrast: var(--color-white);
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: var(--color-danger-active);
+  --ion-color-danger-tint: #F15757;
+
+  /* Header */
+  --ion-toolbar-background: var(--color-panel);
+  --ion-toolbar-color: var(--color-white);
+  --ion-toolbar-border-color: var(--color-panel-line);
+
+  /* Tab bar */
+  --ion-tab-bar-background: var(--color-panel);
+  --ion-tab-bar-border-color: var(--color-panel-line);
+  --ion-tab-bar-color: var(--color-on-dark-2);
+  --ion-tab-bar-color-selected: var(--color-brand);
+}
